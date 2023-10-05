@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    overflow-x: hidden;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+   /* color: white; */
+    padding: 10px 0;
+    text-align:right;
+    z-index: 1000; /* Ensure the navbar is on top of other content */
+  }
+  
+  /* Style for the navigation links */
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: inline-block;
+  }
+  
+  /* Style for the navigation links on hover */
+  .navbar a:hover {
+   
+    color:rgb(207, 154, 7);
+    transition: 0.3s; /* Add a smooth transition effect */
+  }
+  
+  /* Add some space below the fixed navigation bar */
+  body {
+    margin-top: 50px;
+    padding: 0;
+  }
